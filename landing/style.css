@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #f5f4f0;
+  display: flex;
+  justify-content: center;
+  padding: 48px 16px;
+}
+
+.quiz-container {
+  background: #fff;
+  border-radius: 12px;
+  padding: 32px;
+  max-width: 440px;
+  width: 100%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 24px;
+  color: #1a1a1a;
+}
+
+.step p {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.options button,
+.next-btn,
+button[type="submit"] {
+  padding: 12px 16px;
+  border-radius: 8px;
+  border: 1px solid #d8d6cf;
+  background: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: left;
+  transition: border-color 0.15s;
+}
+
+.options button:hover,
+.next-btn:hover,
+button[type="submit"]:hover {
+  border-color: #d85a30;
+}
+
+.options button.selected {
+  border-color: #d85a30;
+  background: #faece7;
+}
+
+input[type="number"],
+input[type="text"],
+input[type="tel"] {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #d8d6cf;
+  font-size: 15px;
+  margin-bottom: 12px;
+}
+
+button[type="submit"],
+.next-btn {
+  background: #d85a30;
+  color: #fff;
+  border: none;
+  text-align: center;
+  font-weight: 500;
+  width: 100%;
+}
+
+.success {
+  text-align: center;
+  color: #0f6e56;
+}

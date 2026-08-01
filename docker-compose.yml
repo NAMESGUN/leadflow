@@ -1,0 +1,14 @@
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: leadflow
+      POSTGRES_PASSWORD: leadflow
+      POSTGRES_DB: leadflow
+    ports:
+      - "5432:5432"
+    volumes:
+      - leadflow_pgdata:/var/lib/postgresql/data
+
+volumes:
+  leadflow_pgdata:

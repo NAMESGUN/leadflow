@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Рассчитать стоимость ремонта</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>Рассчитайте стоимость ремонта за 1 минуту</h1>
+
+    <form id="quiz-form">
+      <div class="step" data-step="1">
+        <p>Тип объекта</p>
+        <div class="options">
+          <button type="button" data-field="project_type" data-value="Квартира">Квартира</button>
+          <button type="button" data-field="project_type" data-value="Дом">Дом</button>
+          <button type="button" data-field="project_type" data-value="Коммерция">Коммерция</button>
+        </div>
+      </div>
+
+      <div class="step" data-step="2" hidden>
+        <p>Площадь объекта, м²</p>
+        <input type="number" name="area" placeholder="Например, 60">
+        <button type="button" class="next-btn">Далее</button>
+      </div>
+
+      <div class="step" data-step="3" hidden>
+        <p>Ваше имя и телефон</p>
+        <input type="text" name="name" placeholder="Имя">
+        <input type="tel" name="phone" placeholder="+7 900 000 00 00">
+        <button type="submit">Получить расчёт</button>
+      </div>
+
+      <div class="step success" data-step="done" hidden>
+        <p>Спасибо! Наш менеджер свяжется с вами в течение 15 минут.</p>
+      </div>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
