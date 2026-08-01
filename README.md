@@ -135,4 +135,6 @@ python tests/seed_demo_data.py
 
 ## Автор
 
-<!-- имя, ссылка на LinkedIn/Telegram, контакты -->
+**Имя**: Dmitry L.
+**Telegram**: [@Tactiflava](https://t.me/Tactiflava)
+**GitHub**: [NAMESGUN](https://github.com/NAMESGUN)
