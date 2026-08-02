@@ -138,3 +138,6 @@ python tests/seed_demo_data.py
 **Имя**: Dmitry L.
 **Telegram**: [@Tactiflava](https://t.me/Tactiflava)
 **GitHub**: [NAMESGUN](https://github.com/NAMESGUN)
+
+## Смежный проект
+**stale-deal-reminder** — https://github.com/NAMESGUN/stale-deal-reminder — автонапоминания в Telegram о сделках, зависших на одной стадии в Bitrix24 дольше N дней. Логическое продолжение воронки: leadflow заводит лид в CRM, stale-deal-reminder следит, чтобы уже заведённая сделка не потерялась на полпути к закрытию.
